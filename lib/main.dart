@@ -33,3 +33,45 @@ class _RotationTransitionDemoState extends State<RotationTransitionDemo>
 
   void _refreshData() {
     if (_isRefreshing) return; // Prevent multiple taps
+    setState(() => _isRefreshing = true);
+
+    // Start spinning animation
+    _controller.repeat();
+
+    // Simulate a fake 4-second data load
+    Future.delayed(const Duration(seconds: 4), () {
+      _controller.stop();
+      setState(() => _isRefreshing = false);
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Data refreshed successfully!')),
+      );
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: const Text('RotationTransition Demo')),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              RotationTransition(
+                turns: _controller,
+                alignment: Alignment.center,
+                child: const Icon(Icons.refresh, size: 80, color: Colors.blue),
+              ),
+              const SizedBox(height: 40),
+              ElevatedButton.icon(
+                onPressed: _refreshData,
+                icon: const Icon(Icons.refresh),
+                label: Text(_isRefreshing ? 'Refreshing...' : 'Refresh Data'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
