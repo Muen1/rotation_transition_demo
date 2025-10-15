@@ -20,3 +20,16 @@ class _RotationTransitionDemoState extends State<RotationTransitionDemo>
   void initState() {
     super.initState();
     _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(seconds: 2),
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  void _refreshData() {
+    if (_isRefreshing) return; // Prevent multiple taps
