@@ -30,10 +30,11 @@ This demo highlights the three main attributes of the RotationTransition widget:
 
 ### 2. Alignment – Sets the pivot point of rotation. Here, it’s Alignment.center, so the icon spins around its center.
 
-### 3. Child – The widget being rotated. In this app, it’s the refresh icon, but any widget can be used.
+### 3. Child – The Widget being rotated. In this app, it’s the refresh icon, but any widget can be used.
 
 ## Screenshot 
-![Refresh Quote App before refreshing](c:\Users\Anthonyemoh\OneDrive\Pictures\screenshot 111.jpg)
-![Refresh Quote App after refreshing](c:\Users\Anthonyemoh\OneDrive\Pictures\screenshot 222.jpg)
+![Refresh Quote App before loading](https://1drv.ms/i/c/47659f4dae4e3118/EVWUlIssFlFJjF6e_BRJI5sBIWjsRt69EXetBx9-Z2S9Ew?e=vmPFvq)
+![Refresh Quote App after loading](https://1drv.ms/i/c/47659f4dae4e3118/ERwemex2LD9Jt1KPK-aQsI4BHJemoSXlPuk1CxUCOXbk7Q?e=U3eCf7)
+
 
 
