@@ -92,4 +92,11 @@ class _RefreshQuoteAppState extends State<RefreshQuoteApp>
                   icon: const Icon(Icons.refresh),
                   label: Text(_isRefreshing ? 'Refreshing...' : 'New Quote'),
                 ),
-          
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
