@@ -32,4 +32,8 @@ This demo highlights the three main attributes of the RotationTransition widget:
 
 ### 3. Child – The widget being rotated. In this app, it’s the refresh icon, but any widget can be used.
 
+## Screenshot 
+![Refresh Quote App before refreshing](c:\Users\Anthonyemoh\OneDrive\Pictures\screenshot 111.jpg)
+![Refresh Quote App after refreshing](c:\Users\Anthonyemoh\OneDrive\Pictures\screenshot 222.jpg)
+
 
