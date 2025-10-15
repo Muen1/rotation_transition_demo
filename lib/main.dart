@@ -96,6 +96,4 @@ class _RefreshQuoteAppState extends State<RefreshQuoteApp>
             ),
           ),
         ),
-      ),
-    );
-  
+      )
