@@ -26,15 +26,14 @@ Tap the New Quote button, the refresh icon will rotate for 3 seconds then a new 
 ## Rotation Transition Attributes
 This demo highlights the three main attributes of the RotationTransition widget:
 
-### 1. Turns – Controls how much the widget rotates, using an Animation<double> from an AnimationController.
+ 1. Turns – Controls how much the widget rotates, using an Animation<double> from an AnimationController.
 
-### 2. Alignment – Sets the pivot point of rotation. Here, it’s Alignment.center, so the icon spins around its center.
+ 2. Alignment – Sets the pivot point of rotation. Here, it’s Alignment.center, so the icon spins around its center.
 
-### 3. Child – The Widget being rotated. In this app, it’s the refresh icon, but any widget can be used.
+ 3. Child – The Widget being rotated. In this app, it’s the refresh icon, but any widget can be used.
 
 ## Screenshot 
-![Refresh Quote App before loading](https://1drv.ms/i/c/47659f4dae4e3118/EVWUlIssFlFJjF6e_BRJI5sBIWjsRt69EXetBx9-Z2S9Ew?e=vmPFvq)
-![Refresh Quote App after loading](https://1drv.ms/i/c/47659f4dae4e3118/ERwemex2LD9Jt1KPK-aQsI4BHJemoSXlPuk1CxUCOXbk7Q?e=U3eCf7)
+![image alt](https://github.com/Muen1/rotation_transition_demo/blob/4f3f8a50810c101c0c475aea46dd2e1602aeb05f/screenshot%20222.jpg)
 
 
 
